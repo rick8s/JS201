@@ -1,0 +1,26 @@
+{
+  "family": [
+    {
+      "name": "Susan Aites",
+      "age": 49,
+      "gender": "female",
+      "skills": [
+        "accountant",
+        "seamstress",
+        "making daughter mad",
+        "great cook"
+      ]
+    },
+    {
+      "name": "Neal Aites",
+      "age": 17,
+      "gender": "male",
+      "skills": [
+        "gaming",
+        "tennis",
+        "more gaming",
+        "near-photographic memory"
+      ]
+    }
+  ]
+}

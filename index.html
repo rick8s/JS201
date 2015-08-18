@@ -29,18 +29,42 @@
     <div class="row">
       <div class="col-md-5">
         
+         <!-- form to add family -->
+
+         <form id="addNewPerson">
+            <div class="form-group">
+              <label for="name">Name (first and last)</label>
+              <input type="text" class="form-control" id="name" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="text" class="form-control" id="age" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <input type="text" class="form-control" id="gender" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="skills">Skills (seperated by commas)</label>
+              <input type="textarea" class="form-control" id="skills" placeholder="">
+            </div>
+            
+            <button id ='submitInfo' class='btn btn-default'> Submit </button>
+          </form>
+
       </div>
             
    
       <div class="col-md-1">
-        <div id="newSongs" class="songs">
+        
+      </div>
+      <div class="col-md-6"> 
+        <div id="myFamily" class="family">
 
               <!-- This is the area that will be populated with family -->
 
         </div>
-      </div>
-      <div class="col-md-6"> 
-        <!-- form to add family -->
+       
       </div>
     </div>
    
