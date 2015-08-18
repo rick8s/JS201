@@ -1,0 +1,21 @@
+{
+  "name": "js201",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rick8s/js201",
+  "authors": [
+    "Rick Aites <rick8s@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~3.0.3",
+    "jquery": "~2.1.4",
+    "requirejs": "~2.1.20"
+  }
+}
